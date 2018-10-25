@@ -1,0 +1,19 @@
+ARB Labs Inc. Front End Developer Pre-Interview Test
+====================================================
+
+Description
+
+-Write a NodeJS application that uses socket-io to deliver the json files attached with this package.
+
+-Create an angular application that contacts the socket-io application which allows user to pick which file it renders with a drop down and renders the data in a tabular format (feel free to stylize the tables in any way you want and visualize the data).
+
+-Use either python or NodeJS to run the http-service that hosts the angular application.
+
+-Upload your code to GitHub.
+
+
+Evaluation Criteria
+
+-Code Style
+-Visual Technics
+-UX/UI

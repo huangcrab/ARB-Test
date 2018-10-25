@@ -1,0 +1,18 @@
+<img src="../assets/image003.png" alt="logo">
+<label>Select Your Table: </label>
+<select (change)='updateTable($event)'>
+  <option *ngFor="let table of tables" [value]='table.id'>{{table.name}}</option>
+</select>
+
+<table class="main-table">
+  <thead>
+    <tr>
+      <th *ngFor="let item of currentField" (click)='sortByCol($event)'>{{item}} - ⬇️</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of currentTable ">
+      <td *ngFor="let key of currentField">{{item[key]}}</td>
+    </tr>
+  </tbody>
+</table>
